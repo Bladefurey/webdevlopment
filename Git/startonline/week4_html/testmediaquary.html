@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Media</title>
+        <style>
+            .p1{
+                background-color:red;
+                width:200px;
+                height:200px;
+            }
+            .p2{
+                background-color:blue;
+                width:30%;
+                height:200px;
+            }
+            @media print{
+                .p1{background-color:white}
+                .p1{background-color:white}
+            }
+            @media screen and (min-width:1000px)
+            {
+                .p1{width:100%}
+                .p2{width:50%}
+            }
+        </style>
+
+    </head>
+    <body>
+        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quaerat deserunt laudantium, in optio exercitationem culpa quasi iure, vero fuga quisquam dignissimos error voluptatum hic tenetur consequuntur voluptates odit eius.</p>
+        <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illo velit saepe delectus tempore minus placeat a voluptates magnam voluptate rem atque itaque sequi, iure debitis molestias id ipsum nesciunt.</p>
+    </body>
+</html>

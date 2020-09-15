@@ -1,0 +1,9 @@
+.container-fluid{
+    background-color:red;
+}
+.col{
+    border:5px solid black;
+}
+.column{
+    border:5px solid black;
+}
